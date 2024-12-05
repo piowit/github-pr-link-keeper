@@ -2,6 +2,9 @@
   "manifest_version": 3,
   "name": "GitHub PR Link Keeper",
   "version": "1.0",
+  "icons": {
+    "128": "128.png"
+  },
   "description": "Keeps the 'Back to pull request' link always visible on GitHub Actions pages",
   "permissions": ["activeTab"],
   "content_scripts": [
