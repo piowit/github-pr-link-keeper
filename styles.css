@@ -1,0 +1,25 @@
+.gh-fixed-pr-link {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  background-color: var(--color-canvas-default);
+  color: var(--color-fg-default);
+  padding: 8px 16px;
+  border: 1px solid var(--color-border-default);
+  border-top: none;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  box-shadow: var(--color-shadow-small);
+}
+
+.gh-fixed-pr-link a {
+  color: var(--color-accent-fg) !important;
+  text-decoration: none !important;
+}
+
+.gh-fixed-pr-link a:hover {
+  color: var(--color-accent-fg) !important;
+  text-decoration: underline !important;
+}
